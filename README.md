@@ -1,5 +1,11 @@
 # Prototype Management
 
+- [Introduction](#introduction)
+- [Data structrure](#data-structrure)
+- [Output](#output)
+- [Credit](#credit)
+- [License](#license)
+
 ## Introduction
 
 This is a mini, non-quantum trial for implementing an algorithm that creates prototypes and schedules tests on them out of given data.
@@ -24,14 +30,18 @@ An example of how this table should look can bee seen in the image below:
 
 ## Output
 
-The notebook outputs an interactive plotly plot of the generated schedule. Each row corresponds to one of the generated prototypes. Prototypes with an "*" in their name are clones of already existing prototypes, which are necessary under certain conditions e.g. two test both require the same prototype at the same time. Scheduled test are colored by their department. Furthermore, the configuration of each prototype is printed.
+The notebook outputs an interactive plotly plot of the generated schedule. Each row corresponds to one of the generated prototypes. Prototypes with an "\*" in their name are clones of already existing prototypes, which are necessary under certain conditions e.g. two test both require the same prototype at the same time. Scheduled test are colored by their department. Furthermore, the configuration of each prototype is printed.
 
 An example of one of the plotted schedules can be seen below. Note that the actual plot is **interactive** with the names of the test only appearing when hovering over them.
 
 ![Image](images/sample_plot.png)
 
-### Credit
+## Credit
 
 Marian Mularski
 
 Alissa Wilms
+
+## License
+
+See [LICENSE](./LICENSE.md).
